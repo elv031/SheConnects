@@ -1,0 +1,136 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    font-size: 1.1rem;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    color: #ffc107 !important;
+  }
+  
+  /* Header Section */
+  header {
+    background: linear-gradient(to bottom, #007bff, #0056b3);
+    color: white;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  header p {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+  }
+  
+  header .btn {
+    font-size: 1.1rem;
+    padding: 0.6rem 1.5rem;
+  }
+  
+  /* Features Section */
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Contact Form */
+  form {
+    background: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  form button {
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background: #333;
+    color: #f9f9f9;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  
+    .card-title {
+      font-size: 1.1rem;
+    }
+  
+    form {
+      padding: 1.5rem;
+    }
+  }
+  
