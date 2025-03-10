@@ -1,0 +1,183 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background-color: #1f1f1f;
+    border-bottom: 1px solid #333;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+  }
+  
+  .nav-link:hover, .nav-link.active {
+    color: #e50914 !important;
+    font-weight: bold;
+  }
+  
+  /* Header Styling */
+  header {
+    background: linear-gradient(to bottom, #e50914, #b20710);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  header .btn {
+    background-color: #fff;
+    color: #e50914;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  header .btn:hover {
+    background-color: #e50914;
+    color: #fff;
+  }
+  
+  /* Skill Building Section */
+  #skill-building {
+    padding: 2rem 0;
+  }
+  
+  #skill-building h2 {
+    font-size: 2rem;
+    color: #e50914;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form .form-control {
+    background-color: #1f1f1f;
+    color: #fff;
+    border: 1px solid #333;
+    padding: 0.75rem;
+    border-radius: 5px;
+  }
+  
+  form .form-control::placeholder {
+    color: #aaa;
+  }
+  
+  form button {
+    background-color: #e50914;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #b20710;
+    transform: translateY(-2px);
+  }
+  
+  /* Skill Results Cards */
+  #skillResults .card {
+    background-color: #1f1f1f;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #skillResults .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(229, 9, 20, 0.5);
+  }
+  
+  #skillResults .card .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e50914;
+  }
+  
+  #skillResults .card .card-text {
+    font-size: 1rem;
+    color: #ccc;
+  }
+  
+  #skillResults .btn {
+    background-color: #e50914;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  #skillResults .btn:hover {
+    background-color: #b20710;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #1f1f1f;
+    color: #777;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  footer p {
+    margin: 0;
+    color: #fff;
+  }
+  
+  footer p a {
+    color: #e50914;
+    text-decoration: none;
+  }
+  
+  footer p a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  
+    #skillResults .card .card-title {
+      font-size: 1rem;
+    }
+  
+    #skillResults .card .card-text {
+      font-size: 0.9rem;
+    }
+  }
+  

@@ -1,0 +1,110 @@
+/*
+ * SheConnects Job Search Portal Styles
+ * Author: [Your Name or Team Name]
+ * Website: SheConnects
+ * Copyright © 2025 SheConnects. All Rights Reserved.
+ */
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #141414; /* Netflix-like dark background */
+    color: #f9f9f9; /* Light text for readability */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Job Search Section Styling */
+  #job-search {
+    background-color: #141414; /* Match main theme */
+    color: #f9f9f9; /* Light text */
+    padding: 3rem 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Elevation effect */
+  }
+  
+  #job-search h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #e50914; /* Netflix-inspired red */
+    text-align: center;
+  }
+  
+  /* Form Styling */
+  #jobSearchForm {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #jobSearchForm .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  #jobSearchForm .form-control {
+    background-color: #1c1c1c; /* Darker background for inputs */
+    color: #f9f9f9; /* White text for inputs */
+    border: 1px solid #333; /* Subtle border */
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+  
+  #jobSearchForm .form-control::placeholder {
+    color: #888; /* Subtle placeholder text */
+  }
+  
+  #jobSearchForm .form-control:focus {
+    border-color: #e50914; /* Red border on focus */
+    box-shadow: 0 0 5px rgba(229, 9, 20, 0.5); /* Glowing red focus effect */
+    outline: none; /* Remove default browser outline */
+  }
+  
+  #jobSearchForm .btn {
+    background-color: #e50914;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  #jobSearchForm .btn:hover {
+    background-color: #b20710; /* Darker red for hover */
+    transform: scale(1.05); /* Slightly larger on hover */
+  }
+  
+  /* Job Results Section */
+  #jobResults {
+    margin-top: 2rem;
+    background-color: #1c1c1c; /* Darker background */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Elevation */
+    color: #f9f9f9;
+    font-size: 1rem;
+    text-align: left;
+  }
+  
+  #jobResults p {
+    color: #888; /* Subtle placeholder text */
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #job-search h2 {
+      font-size: 2rem;
+    }
+  
+    #jobSearchForm .btn {
+      width: 100%; /* Full-width button on smaller screens */
+    }
+  
+    #jobSearchForm .form-control {
+      font-size: 0.9rem;
+    }
+  }
+  
